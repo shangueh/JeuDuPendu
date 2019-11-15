@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%x;
+  height: 100%;
+  margin: auto;
+  user-select: none;
+  text-align: center;
+  padding: 25px;
+}
+
+.App h1 {
+  font-size: 56px;
+}
+
+.Letter button {
+  width: 26px;
+  margin-right: 6px;
+  padding: 1px;
+  box-sizing: border-box;
+  font-size: 22px;
+  background-color: white;
+  border: none;
+}
+
+.Titre {
+  padding: 20px 0 0;
+}
+
+.Titre ul {
+  display: inline-block;
+  padding: 0;
+}
+
+.Titre li {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 26px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.Titre li.titleLetter {
+  border-bottom: 1px solid #666;
+  margin-right: 4px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.Titre span.Letter {
+  visibility: visible;
+}
+
+.Titre span.LetterRed {
+  visibility: visible;
+  color: red;
+}
+
+.Titre span.LetterH {
+  visibility: hidden;
+}
+
+.Life {
+  font-size: 28px;
+}
+
+.Full {
+  opacity: 1;
+}
+
+.Empty {
+  opacity: 0.25;
+}

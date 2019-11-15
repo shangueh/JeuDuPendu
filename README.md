@@ -1,2 +1,0 @@
-# JeuDuPendu
-Created with CodeSandbox
